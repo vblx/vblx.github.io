@@ -1,7 +1,7 @@
 # Page settings
 #baseurl = "localhost:1313"
-baseurl = "https://berasco.github.io/"
-title = "Hugo Site with Elate theme"
+baseurl = "https://vblx.github.io/"
+title = "Berasco GmbH"
 languageCode = "de-DE"
 theme = "hugo-elate-theme"
 
@@ -219,11 +219,11 @@ social = [
 # Counters section
 [params.counters]
 enable = true
-title = "Stats"
+title = "Berasco in Zahlen"
 background = "full_image_1.jpg"
 
 [[params.counters.item]]
-description = "Finished projects"
+description = "Fertiggestellte Projekte"
 icon = "icon-briefcase"
 from = 0
 to = 89
@@ -231,10 +231,10 @@ interval = 50
 speed = 5000
 
 [[params.counters.item]]
-description = "Lines of code"
-icon = "icon-code"
+description = "Verlegte Steinplatten"
+icon = "icon-layers"
 from = 0
-to = 2343409
+to = 2343
 interval = 50
 speed = 5000
 
@@ -247,10 +247,10 @@ interval = 50
 speed = 5000
 
 [[params.counters.item]]
-description = "Happy clients"
+description = "Zufriedene Kunden"
 icon = "icon-people"
 from = 0
-to = 52
+to = 1024
 interval = 50
 speed = 5000
 
@@ -259,29 +259,30 @@ speed = 5000
 enable = true
 map = true
 form = true
-title = "Get in touch"
-description = "contact us."
+title = "Kontakt"
+description = "kontaktieren Sie uns."
 
-# Available icons: http://simplelineicons.com/
+# Available icons: https://simplelineicons.github.io/
 details = [
-["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-["icon-phone", "(123) 465-6789"],
-["icon-envelope", "info@freehtml5.co"],
-["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+["icon-home", "Am Rosengarten 15-16, 14621 Schönwalde-Glien"],
+["icon-phone", "033231-3141 00"],
+["icon-envelope", "info@berasco.de"],
+["icon-globe", '<a href="http://www.berasco.de/" target="_blank">www.berasco.de</a>']
 ]
 
 name = "Name"
 email = "Email"
-phone = "Phone"
+phone = "Telefon"
 message = "Message"
 button = "Send message"
 
 # Footer section
 [params.footer]
 enable = true
-copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port.'
+
+copyright = 'Copyright © 2024 Berasco-GmbH.'
 links = [
 ["icon-twitter", "#twitter"],
-["icon-facebook", "#facebook"],
+["icon-facebook", "https://www.facebook.com/pages/BERASCO-GmbH/1929054204080780"],
 ["icon-youtube", "#youtube"]
 ]
