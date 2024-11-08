@@ -31,10 +31,10 @@ contact = "Kontakt"
 # Assign a weight to define the order
 
 # prepended links
-#[[menu.prepend]]
-#  url = "http://gohugo.io"
-#  name = "Hugo"
-#  weight = 10
+[[menu.prepend]]
+url = "http://gohugo.io"
+name = "Hugo"
+weight = 10
 
 # postpended links
 #[[menu.postpend]]
