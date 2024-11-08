@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-testimonials {
-  background: #ec0000;
+  background: #ff3030;
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 #fh5co-testimonials .box-testimony a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(200, 50, 10, 0.5);
 }
 #fh5co-testimonials .box-testimony a:hover, #fh5co-testimonials .box-testimony a:focus, #fh5co-testimonials .box-testimony a:active {
   color: white;
