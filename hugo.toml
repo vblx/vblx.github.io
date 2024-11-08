@@ -46,39 +46,38 @@ contact = "Kontakt"
 [params.hero]
 title = "Wir leben im Zeitalter der Information"
 subtitle = "Vorraussetzung für den Austausch von Informationen sind funktionierende Kommunikationssysteme und eine sinnvolle, störungsfreie Technik."
-img = "ditch-witch.jpg"
 
 # Intro section (erste sektion mit beliebigen info-kacheln)
 # Available icons: https://simplelineicons.github.io/
 [params.intro]
 
 [[params.intro.item]]
-title = "Planen"
-description = "Beschreibung...."
+title = "Plan"
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 url = "#"
-button = "Kontakt"
+button = "Get In Touch"
 icon = "icon-bulb"
 img = "img_7.jpg"
 
 [[params.intro.item]]
-title = "Installation"
-description = "Beschreibung...."
+title = "Develop"
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 url = "#"
-button = "Klick mich!"
+button = "Click Me"
 icon = "icon-wrench"
 img = "img_8.jpg"
 
 [[params.intro.item]]
-title = "Ausführen"
-description = "Beschreibung...."
+title = "Launch"
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 url = "#"
-button = "Gründe für uns"
+button = "Why us?"
 icon = "icon-rocket"
 img = "img_10.jpg"
 
 [params.intro.video]
 enable = true
-title = "Watch the PLATZHALTER video"
+title = "Watch the video"
 icon = "icon-play2"
 url = "https://vimeo.com/channels/staffpicks/93951774"
 
