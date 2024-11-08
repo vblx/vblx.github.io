@@ -42,148 +42,149 @@ contact = "Kontakt"
 #name = "External link"
 #weight = 10
 
-# Hero section
+# Hero section ("Hero" ist Haupt-titel und -hintergrund ganz oben!)
 [params.hero]
 title = "Wir leben im Zeitalter der Information"
 subtitle = "Vorraussetzung für den Austausch von Informationen sind funktionierende Kommunikationssysteme und eine sinnvolle, störungsfreie Technik."
+img = "ditch-witch.jpg"
 
-# Intro section
-# Available icons: http://simplelineicons.com/
+# Intro section (erste sektion mit beliebigen info-kacheln)
+# Available icons: https://simplelineicons.github.io/
 [params.intro]
 
 [[params.intro.item]]
-title = "Plan"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Planen"
+description = "Beschreibung...."
 url = "#"
-button = "Get In Touch"
+button = "Kontakt"
 icon = "icon-bulb"
 img = "img_7.jpg"
 
 [[params.intro.item]]
-title = "Develop"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Installation"
+description = "Beschreibung...."
 url = "#"
-button = "Click Me"
+button = "Klick mich!"
 icon = "icon-wrench"
 img = "img_8.jpg"
 
 [[params.intro.item]]
-title = "Launch"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Ausführen"
+description = "Beschreibung...."
 url = "#"
-button = "Why us?"
+button = "Gründe für uns"
 icon = "icon-rocket"
 img = "img_10.jpg"
 
 [params.intro.video]
 enable = true
-title = "Watch the video"
+title = "Watch the PLATZHALTER video"
 icon = "icon-play2"
 url = "https://vimeo.com/channels/staffpicks/93951774"
 
-# Work section
+# Work section ("Leistungen", grobe Uebersicht)
 [params.work]
 enable = true
 title = "Leistungen"
 description = "Wir bieten Ihnen umfassende Dienstleistungen, alles aus einer Hand."
-footertext = '** Platzhalter Fotosvon der <a href="http://berasco.com/" target="_blank">alten Website</a>'
+footertext = '** Platzhalter Fotos von der <a href="http://berasco.com/" target="_blank">alten Website</a>'
 
 [[params.work.row]]
 img = "work_1.jpg"
-alt = "Image2"
-title = "Project 1"
-subtitle = "Branding"
+alt = "Image1"
+title = "Tiefbau"
+subtitle = "Kurzbeschreibung..."
 
 [[params.work.row]]
 img = "work_2.jpg"
 alt = "Image2"
-title = "Project 2"
-subtitle = "Design"
+title = "Straßenbau"
+subtitle = "Kurzbeschreibung..."
 
 [[params.work.row]]
 img = "work_3.jpg"
 alt = "Image3"
-title = "Project 3"
-subtitle = "Design"
+title = "Garten- &amp; Landschaftsbau"
+subtitle = "Kurzbeschreibung..."
 
 [[params.work.row]]
 img = "work_4.jpg"
 alt = "Image4"
-title = "Project 4"
-subtitle = "Design"
+title = "Pflasterarbeiten"
+subtitle = "Kurzbeschreibung..."
 
 [[params.work.row]]
 img = "work_5.jpg"
 alt = "Image5"
-title = "Project 5"
-subtitle = "Design"
+title = "Herstellen von Hausanschlüssen"
+subtitle = "Kurzbeschreibung..."
 
 [[params.work.row]]
 img = "work_6.jpg"
 alt = "Image6"
-title = "Project 6"
-subtitle = "Design"
+title = "Kabeleinblasarbeiten"
+subtitle = "Kurzbeschreibung..."
 
-# Testimonials section
+# Testimonials section ("Referenzen")
 [params.testimonials]
 enable = true
-title = "Testimonials"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Referenzen"
+description = "Beschreibungstext Referenzen...."
 
 [[params.testimonials.item]]
-quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+quote = "&ldquo;Bespielzitat #1 hier, total toll!&rdquo;"
 person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 img = "person1.jpg"
 alt = "Person1"
 
 [[params.testimonials.item]]
-quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+quote = "&ldquo;Bespielzitat #2 hier, total toll!&rdquo;"
 person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 img = "person2.jpg"
 alt = "Person2"
 
 [[params.testimonials.item]]
-quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+quote = "&ldquo;Bespielzitat #3 hier, total toll!&rdquo;"
 person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 img = "person3.jpg"
 alt = "Person3"
 
-
-# Services section
+# Services section (Detaillierte uebersicht der Leistungen)
 [params.services]
 enable = true
-title = "Services"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Services / Leistungen im Detail"
+description = "Beschreibungstext..."
 
 [[params.services.item]]
-title = "Brand &amp; Strategy"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-anchor"
+title = "Bau &amp; Tiefbau"
+description = "Beschreibungstext..."
+icon = "icon-wrench"
 
 [[params.services.item]]
-title = "Web &amp; Interface"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-layers2"
-[[params.services.item]]
-title = "Photo &amp; Video"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-video2"
+title = "Garten- &amp; Landschaftsbau"
+description = "Beschreibungstext..."
+icon = "icon-home"
 
 [[params.services.item]]
-title = "CMS &amp; eCommerce"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-monitor"
+title = "Straßenbau"
+description = "Beschreibungstext..."
+icon = "icon-loop"
+
+[[params.services.item]]
+title = "Pflasterarbeiten"
+description = "Beschreibungstext..."
+icon = "icon-grid"
 
 # About section
 [params.about]
 enable = true
-title = "About"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Über uns"
+description = "Über uns Beschreibung..."
 
 [[params.about.item]]
-name = "Jean Smith"
-position = "Web Designer"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+name = "Chef Boss"
+position = "Betriebsleiter"
+description = "Beschreibung..."
 img = "person1.jpg"
 alt = "Person1"
 social = [
@@ -193,9 +194,9 @@ social = [
 ]
 
 [[params.about.item]]
-name = "Rob Smith"
-position = "Web Developer"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+name = "Jemand Anders"
+position = "Schichtleitung"
+description = "Beschreibung..."
 img = "person2.jpg"
 alt = "Person2"
 social = [
@@ -205,9 +206,9 @@ social = [
 ]
 
 [[params.about.item]]
-name = "Larry Ben"
-position = "Web Designer"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+name = "Ange Stellter"
+position = "Arbeiter"
+description = "Beschreibung..."
 img = "person3.jpg"
 alt = "Person3"
 social = [
@@ -239,10 +240,10 @@ interval = 50
 speed = 5000
 
 [[params.counters.item]]
-description = "Cups of coffee"
+description = "Kaffeetassen"
 icon = "icon-cup"
 from = 0
-to = 1302
+to = 132
 interval = 50
 speed = 5000
 
@@ -260,7 +261,7 @@ enable = true
 map = true
 form = true
 title = "Kontakt"
-description = "kontaktieren Sie uns."
+description = "Kontaktieren Sie uns."
 
 # Available icons: https://simplelineicons.github.io/
 details = [
@@ -273,16 +274,16 @@ details = [
 name = "Name"
 email = "Email"
 phone = "Telefon"
-message = "Message"
-button = "Send message"
+message = "Nachricht"
+button = "Nachricht versenden"
 
 # Footer section
 [params.footer]
 enable = true
 
-copyright = 'Copyright © 2024 Berasco-GmbH.'
+copyright = 'Copyright © 2024 Berasco GmbH'
 links = [
-["icon-twitter", "#twitter"],
+#["icon-twitter", "#twitter"],
 ["icon-facebook", "https://www.facebook.com/pages/BERASCO-GmbH/1929054204080780"],
-["icon-youtube", "#youtube"]
+#["icon-youtube", "#youtube"]
 ]
