@@ -23,7 +23,8 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
@@ -34,14 +35,15 @@ jobs:
           hugo-version: '0.138.0'
           extended: true
 
-      - uses: actions/cache@v4
+      - name: Cache
+        uses: actions/cache@v4
         with:
           path: ${{ env.HUGO_CACHEDIR }}
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      - name: Build
+      - name: Build (minified)
         run: hugo --minify
 
       - name: Deploy
