@@ -1,6 +1,7 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "My New Hugo Site with Elate theme"
+#baseurl = "localhost:1313"
+baseurl = "https://berasco.github.io/"
+title = "Hugo Site with Elate theme"
 languageCode = "de-DE"
 theme = "hugo-elate-theme"
 
@@ -79,7 +80,6 @@ enable = true
 title = "Watch the video"
 icon = "icon-play2"
 url = "https://vimeo.com/channels/staffpicks/93951774"
-
 
 # Work section
 [params.work]
