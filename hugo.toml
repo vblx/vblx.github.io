@@ -44,7 +44,7 @@ contact = "Kontakt"
 
 # Hero section
 [params.hero]
-title = "Do something you love."
+title = "Do something you love!"
 subtitle = 'free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for HugoooOo'
 
 # Intro section
