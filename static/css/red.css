@@ -350,11 +350,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   line-height: 0;
   display: table;
-  color: #ff0;
+  color: #fea;
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #ec0000;
+  background: #e00505;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-press .fh5co-press-item {
-  background: #fff;
+  background: #faa;
   float: left;
   margin-bottom: 30px;
   position: relative;
