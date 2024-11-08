@@ -305,10 +305,10 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 #fh5co-testimonials .section-heading h2:after {
-  background: rgba(255, 200, 200, 0.2);
+  background: rgba(255, 255, 255, 0.5);
 }
 #fh5co-testimonials .section-heading .subtext h3 {
-  color: rgba(255, 200, 200, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-testimonials .box-testimony {
   margin-bottom: 2em;
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(200, 50, 10, 0.5);
 }
 #fh5co-testimonials .box-testimony a:hover, #fh5co-testimonials .box-testimony a:focus, #fh5co-testimonials .box-testimony a:active {
-  color: lightgray;
+  color: white;
   text-decoration: none;
 }
 #fh5co-testimonials .box-testimony blockquote {
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   line-height: 0;
   display: table;
-  color: #fea;
+  color: #fff;
   width: 56px;
   height: 56px;
   margin-top: -30px;
