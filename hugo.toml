@@ -1,5 +1,8 @@
+
+##########################################################################################
 # Page settings
-#baseurl = "localhost:1313"
+
+#baseurl = "127.0.0.1:1313"
 baseurl = "https://vblx.github.io/"
 title = "Berasco GmbH"
 languageCode = "de-DE"
@@ -7,18 +10,21 @@ theme = "hugo-elate-theme"
 favicon = "favicon.ico"
 
 [params]
-# CSS
+# additional CSS
 custom_css = ["css/red.css"]
 # Meta
 author = ""
 description = ""
 email = ""
+
+# to get this link, register an account at formspree.io
 formspreelink = "https://formspree.io/f/mgveyzod"
 
 # Google Maps Javascript API Key (defaults to not passing a key)
 googleMapsApiKey = ""
 
-# Navigation
+##########################################################################################
+# Navigationsleiste
 [params.navigation]
 brand = "Berasco"
 brandslogan = "Hoch- & Tiefbau"
@@ -30,7 +36,7 @@ about = "Über uns"
 contact = "Kontakt"
 
 # You can add custom links before or after the default links
-# Assign a weight to define the order
+# Assign a weight to define the order:
 
 # prepended links
 #[[menu.prepend]]
@@ -44,9 +50,11 @@ contact = "Kontakt"
 #name = "External link"
 #weight = 10
 
+
+##########################################################################################
 # Hero section ("Hero" ist Haupt-titel und -hintergrund ganz oben!)
 [params.hero]
-title = "Wir leben im Zeitalter der Information"
+title = "Wir leben im Zeitalter der Information" # bitte ersetzen!
 subtitle = "Vorraussetzung für den Austausch von Informationen sind funktionierende Kommunikationssysteme und eine sinnvolle, störungsfreie Technik."
 
 # Intro section (erste sektion mit beliebigen info-kacheln)
@@ -74,7 +82,7 @@ img = "img_8.jpg"
 ### DRITTE INTRO KACHEL
 [[params.intro.item]]
 title = "Tiefbau"
-description = "Der Tiefbau hingegen umfasst Arbeiten unterhalb der Erdoberfläche, wie den Bau von Straßen, Brücken, Tunneln und Kanälen."
+description = "Der Tiefbau hingegen umfasst Arbeiten unterhalb der Erdoberfläche, wie den Bau von Straßen, Brücken, Tunneln und Kanälen. Im Tiefbau müssen die Gegebenheiten des Geländes und die infrastrukturellen Bedürfnisse berücksichtigt werden."
 url = "#"
 button = "Interessiert?"
 icon = "icon-wrench"

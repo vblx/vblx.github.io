@@ -6,16 +6,100 @@ static landingpage example for www.berasco.de
 Alles wichtige ist in hugo.toml als Klartext veraenderbar:
 - Auf GitHub einloggen
 - Datei editieren: https://github.com/vblx/vblx.github.io/edit/main/hugo.toml
-- Commit changes, optional kurze beschreibung.
-- Website wird generiert.
+- Gruener Button "Commit changes", optional kurze Beschreibung
+  eingeben und abschicken...
+- Website wird generiert, die Änderungen sollten in 1-2 Minuten sichtbar
+  sein..
+
+## Struktur / Aufbau ##
+Es handelt sich hier um eine Monopage-Seite. Es gibt also keine
+Unterseiten, und alles was die Navigation oben macht ist runterscrollen.
+Das ist so gewollt.  Man kann sehr leicht neue Sektionen hinzufuegen,
+oder vorhandene Sektionen ausblenden.
+
+Alles was irgendwie wichtig ist und mit dem Inhalt der Seite zu tun hat,
+findet sich in der "hugo.toml" Datei: Text, Eingebundene Bilder, Icons,
+nacheinander in Sektionen eingeteilt so, in der gleichen Reihenfolge wie
+es auf der generierten Website ist.
+
+### hugo.toml  ###
+Oben sind Page-wide settings fuer den Header der Seite und 'globale'
+Dinge wie custom CSS, oder googleMapsApiKey (gelten also fuer die ganze
+Seite).
+
+Danach folgen diese Sektionen:
+- hero (hero ist sozusagen das erste was man sieht)
+- intro ("Start")
+- work ("Leistungen")
+- testimonials ("Referenzen")
+- services ("Services")
+- about ("Über uns")
+- counters ("Berasco in Zahlen")
+- contact ("Kontakt")
+- footer
+
+Alle diese Sektionen koennen sehr leicht ausgeblendet werden. Einfach
+ein `enable = true` in der hugo.toml datei fuer eine Sektion in ein
+`enable = false` aendern.
+
+### icons ###
+Die Seite benutzt icons und Bilder.  Die exakten Namen fuer Icons
+koennen hier gefunden werden: https://simplelineicons.github.io/ Man
+kann z.B. `icon = "icon-bulb"` in `icon = "icon-star"` umaendern, und
+auf der Seite erscheint dann ein Stern-symbol anstelle von einer
+Gluehbirne.
+
+### bilder ###
+Bilder sind in hugo.toml immer `img = dateiname.jpg` und alle bilder
+liegen im Unterordner 'images'. Man kann auf GitHub in diesen ordner
+einfach neue Bilder hochladen und dann in der hugo.toml in der
+jeweiligen Sektion verwenden.  Die Intro Sektion mit den Kacheln ist
+nach dem Hero das erste was der Kunde sieht. Hier soll der Zweck der
+angezeigten info-Kacheln im Intro-bereich gut ueberlegt sein. Das
+Beispiel Zeigt 3 Kacheln mit icons (man kann hier auch Bilder statt
+icons nehmen!), Textbeschreibung, und einem Knopf. Damit kann man eine
+Stelle der Seite scrollen, einen internen oder externen Link aufrufen,
+oder ein popup mit z.B. einer Bilder-slideshow.
+
+Es ist natuerlich auch moeglich ein Video von Vimeo oder YouTube
+einzubetten.
+
 
 ## Kontakt Form ##
 Um das "Kontakt" feature der Seite nutzen zu können, muss man erst auf
 https://formspree.io/ einen Account machen, mit genau der Email addresse
 auf der man später Kunden-Emails empfangen möchte.  1000 Emails pro
-Monat sind gratis.
+Monat sind gratis. Die Funktion ist getestestet und Funktioniert.
 
 
+### sonstiges ###
+	Weil es eine Monopage Seite ist, ohne einzelne unterseiten (wie
+z.B. Blog-eintraege), ist der order "content" leer und der ordner
+"archetypes", aus dem wir sonst Format fuer Blog-eintraege in mardown
+etc. ableiten wuerden hat auch keine besonderen inhalte. Beide
+Unterordner koennen hier ignoriert werden.  Es werden alle Sektionen der
+Seite im Unterordner './layouts' gefunden und dann zu einer einzigen
+index.html Seite zusammengefuegt.
+
+Alle statischen assets der Seite sind im './static' Unterordner zu
+finden, so z.B. auch CSS und Bilder in './static/css/' und
+'./static/images/'
+
+Alle HTML-bausteine fuer die verschiedenen Sektionen sind im Unterordner
+'./layouts'. Besonders interessant ist hier der Unterordner
+'.layouts/partials/': hier befinden sich die HTML Templates aller
+Sektionen.
+
+In './themes/hugo-elate-theme' steckt das benutzte Hugo-Theme
+"Elate". Alle Dateien die im Hauptverzeichnis sind, nehmen Vorrang
+gegenueber den Dateien im Theme folder. Sollte aber etwas aus dem
+Hauptverzeichnis fehlen, wird es aus dem Theme unterordner
+geladen. Idealerweise laesst man das Theme unveraendert und kopiert
+stattdessen benoetigte Dateien dort heraus ins Hauptverzeichnis und
+editiert diese dort.  Das Theme selbst ist allerdings jetzt bereits
+leicht angepasst im vergleich zum Original.
+
+---
 
 ### dev corner ###
 This info is *not* needed unless you want to do everything again from
