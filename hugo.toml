@@ -14,7 +14,7 @@ custom_css = ["css/red.css"]
 author = ""
 description = ""
 email = ""
-formspree-link = "https://formspree.io/f/mgveyzod"
+formspreelink = "https://formspree.io/f/mgveyzod"
 
 # Google Maps Javascript API Key (defaults to not passing a key)
 googleMapsApiKey = ""
