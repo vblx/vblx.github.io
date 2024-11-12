@@ -212,13 +212,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0px;
   }
 }
-#fh5co-header .navbar-default .brand-slogan {
+#fh5co-header .navbar-default .brandslogan {
   margin: 28px 0 0 15px;
   float: left;
   letter-spacing: 2px;
   color: #adadad;
 }
-#fh5co-header .navbar-default .brand-slogan em {
+#fh5co-header .navbar-default .brandslogan em {
   color: #ec0000;
   font-style: normal;
 }
