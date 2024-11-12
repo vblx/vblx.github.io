@@ -30,7 +30,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ec0000;
+  color: #ec5050;
   outline: none;
 }
 
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brandslogan em {
-  color: #ec0000;
+  color: #ec4040;
   font-style: normal;
 }
 #fh5co-header a {
