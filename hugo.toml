@@ -7,9 +7,8 @@ theme = "hugo-elate-theme"
 favicon = "favicon.ico"
 
 [params]
-
+# CSS
 custom_css = ["css/red.css"]
-
 # Meta
 author = ""
 description = ""
