@@ -645,7 +645,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1;
+  /* zoom is non-standard, use transform instead and transform-origin! */
+  /* zoom: 1; */
+  transform:scale(1);
+  transform-origin: 0 0;
   *display: inline;
   width: 25px;
   height: 3px;
