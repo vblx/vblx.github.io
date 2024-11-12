@@ -12,9 +12,8 @@ custom_css = ["css/red.css"]
 # Meta
 author = ""
 description = ""
-## this mail will be used to receive emails...
-#email = "info@berasco.de"
-email = "u6mgvg+votrmsr9sy9kl9srggfq34q1hfpfvo@sharklasers.com"
+email = ""
+formspree-link = "https://formspree.io/f/mgveyzod"
 
 # Google Maps Javascript API Key (defaults to not passing a key)
 googleMapsApiKey = ""
