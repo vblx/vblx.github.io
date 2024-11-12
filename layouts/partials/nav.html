@@ -15,7 +15,7 @@
 		  <!-- 	  <text x="50%" y="75%" class="subtitle" font-size="52" text-anchor="middle">{{ with .Site.Params.navigation.slogan }}{{ . | markdownify }}{{ end }}</text> -->
 		  <!-- 	</svg> -->
 		  <!-- </a> -->
-          <a class="navbar-brand" href="index.html">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}<br>{{ with .Site.Params.navigation.brand\-slogan }}{{ . | markdownify }}{{ end }}</a>
+          <a class="navbar-brand" href="index.html">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}<br>{{{ with .Site.Params.navigation.brand-slogan }}}{{ . | markdownify }}{{{ end }}}</a>
 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
