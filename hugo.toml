@@ -21,7 +21,7 @@ googleMapsApiKey = ""
 # Navigation
 [params.navigation]
 brand = "Berasco"
-brandslogan = "Hoch- & Tiefbau"
+brand-slogan = "Hoch- & Tiefbau"
 home = "Start"
 work = "Leistungen"
 testimonials = "Referenzen"
