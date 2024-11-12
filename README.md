@@ -73,7 +73,7 @@ Monat sind gratis. Die Funktion ist getestestet und Funktioniert.
 
 
 ### sonstiges ###
-	Weil es eine Monopage Seite ist, ohne einzelne unterseiten (wie
+Weil es eine Monopage Seite ist, ohne einzelne unterseiten (wie
 z.B. Blog-eintraege), ist der order "content" leer und der ordner
 "archetypes", aus dem wir sonst Format fuer Blog-eintraege in mardown
 etc. ableiten wuerden hat auch keine besonderen inhalte. Beide
