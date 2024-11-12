@@ -2,11 +2,20 @@
 static landingpage example for www.berasco.de
 
 
+## Änderungen am Inhalt ##
+Alles wichtige ist in hugo.toml als Klartext veraenderbar:
+- Auf GitHub einloggen
+- Datei editieren: https://github.com/vblx/vblx.github.io/edit/main/hugo.toml
+- Commit changes, optional kurze beschreibung.
+- Website wird generiert.
+
 ## Kontakt Form ##
 Um das "Kontakt" feature der Seite nutzen zu können, muss man erst auf
 https://formspree.io/ einen Account machen, mit genau der Email addresse
 auf der man später Kunden-Emails empfangen möchte.  1000 Emails pro
 Monat sind gratis.
+
+
 
 ### dev corner ###
 This info is *not* needed unless you want to do everything again from

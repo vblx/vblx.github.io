@@ -69,7 +69,7 @@ description = "Hochbau und Tiefbau sind zwei wesentliche Bereiche der Bauindustr
 
 url = "#"
 button = "Klick Hier!"
-icon = "icon-wrench"
+icon = "icon-layers"
 img = "img_8.jpg"
 
 ### DRITTE INTRO KACHEL
@@ -77,8 +77,8 @@ img = "img_8.jpg"
 title = "Tiefbau"
 description = "Der Tiefbau hingegen umfasst Arbeiten unterhalb der Erdoberfläche, wie den Bau von Straßen, Brücken, Tunneln und Kanälen."
 url = "#"
-button = "?"
-icon = "icon-rocket"
+button = "Interessiert?"
+icon = "icon-wrench"
 img = "img_10.jpg"
 
 ### INTRO VIDEO
