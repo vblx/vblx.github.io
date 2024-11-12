@@ -5,16 +5,18 @@
         <div class="navbar-header">
           <!-- Mobile Toggle Menu Button -->
           <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-          <a class="navbar-brand" href="index.html">
-			<svg width="150" height="50" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
-			  <style> .title { font-family: 'Times New Roman', serif; font-weight: bold; fill: #FFFFFF; } .subtitle { font-family: 'Times New Roman', serif; fill: #FFFFFF; }</style>
-			  <!-- Main Text -->
-			  <text x="50%" y="45%" class="title" font-size="68" text-anchor="middle">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</text>
-			  <!-- Sub Text -->
-			  <text x="50%" y="75%" class="subtitle" font-size="52" text-anchor="middle">{{ with .Site.Params.navigation.slogan }}{{ . | markdownify }}{{ end }}</text>
-			</svg>
 
-		  </a>
+          <!-- <a class="navbar-brand" href="index.html"> -->
+		  <!-- 	<svg width="150" height="50" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg"> -->
+		  <!-- 	  <style> .title { font-family: 'Times New Roman', serif; font-weight: bold; fill: #FFFFFF; } .subtitle { font-family: 'Times New Roman', serif; fill: #FFFFFF; }</style> -->
+		  <!-- 	  <\!-- Main Text -\-> -->
+		  <!-- 	  <text x="50%" y="45%" class="title" font-size="68" text-anchor="middle">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</text> -->
+		  <!-- 	  <\!-- Sub Text -\-> -->
+		  <!-- 	  <text x="50%" y="75%" class="subtitle" font-size="52" text-anchor="middle">{{ with .Site.Params.navigation.slogan }}{{ . | markdownify }}{{ end }}</text> -->
+		  <!-- 	</svg> -->
+		  <!-- </a> -->
+          <a class="navbar-brand" href="index.html">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}<br>{{ with .Site.Params.navigation.brand-slogan }}{{ . | markdownify }}{{ end }}</a>
+
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
