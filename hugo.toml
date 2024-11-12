@@ -12,7 +12,9 @@ custom_css = ["css/red.css"]
 # Meta
 author = ""
 description = ""
-email = ""
+## this mail will be used to receive emails...
+#email = "info@berasco.de"
+email = "u6mgvg+votrmsr9sy9kl9srggfq34q1hfpfvo@sharklasers.com"
 
 # Google Maps Javascript API Key (defaults to not passing a key)
 googleMapsApiKey = ""
@@ -51,30 +53,35 @@ subtitle = "Vorraussetzung für den Austausch von Informationen sind funktionier
 # Available icons: https://simplelineicons.github.io/
 [params.intro]
 
+### ERSTE INTRO KACHEL
 [[params.intro.item]]
-title = "Plan"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Planung"
+description = "Die Planung von Hoch- und Tiefbauprojekten mit einem Kunden erfordert enge Zusammenarbeit und klare Kommunikation. Zunächst werden die Wünsche und Anforderungen des Kunden erfasst, um ein maßgeschneidertes Konzept zu entwickeln."
 url = "#"
-button = "Get In Touch"
+button = "Termin Vereinbaren"
 icon = "icon-bulb"
 img = "img_7.jpg"
 
+### ZWEITE INTRO KACHEL
 [[params.intro.item]]
-title = "Develop"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Hochbau"
+description = "Hochbau und Tiefbau sind zwei wesentliche Bereiche der Bauindustrie. Beim Hochbau geht es um den Bau von Gebäuden, wie Wohnhäusern, Bürogebäuden oder Türmen."
+
 url = "#"
-button = "Click Me"
+button = "Klick Hier!"
 icon = "icon-wrench"
 img = "img_8.jpg"
 
+### DRITTE INTRO KACHEL
 [[params.intro.item]]
-title = "Launch"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+title = "Tiefbau"
+description = "Der Tiefbau hingegen umfasst Arbeiten unterhalb der Erdoberfläche, wie den Bau von Straßen, Brücken, Tunneln und Kanälen."
 url = "#"
-button = "Why us?"
+button = "?"
 icon = "icon-rocket"
 img = "img_10.jpg"
 
+### INTRO VIDEO
 [params.intro.video]
 enable = true
 title = "Watch the video"
@@ -131,19 +138,19 @@ title = "Referenzen"
 description = "Beschreibungstext Referenzen...."
 
 [[params.testimonials.item]]
-quote = "&ldquo;Bespielzitat #1 hier, total toll!&rdquo;"
-person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+quote = "&ldquo;Bespielzitat #1 immer wieder gerne als Kunde hier!&rdquo;"
+person = 'Jean Doe, Amt für Urbane Gestaltung'
 img = "person1.jpg"
 alt = "Person1"
 
 [[params.testimonials.item]]
-quote = "&ldquo;Bespielzitat #2 hier, total toll!&rdquo;"
+quote = "&ldquo;Bespielzitat #2 Baukonstruktion vom Fach die begeistert!&rdquo;"
 person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 img = "person2.jpg"
 alt = "Person2"
 
 [[params.testimonials.item]]
-quote = "&ldquo;Bespielzitat #3 hier, total toll!&rdquo;"
+quote = "&ldquo;Bespielzitat #3 sehr, sehr, zufrieden!&rdquo;"
 person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 img = "person3.jpg"
 alt = "Person3"
@@ -255,6 +262,11 @@ interval = 50
 speed = 5000
 
 # Contact section
+
+### For static landing pages, you can use https://formspree.io to send the actual email. Each month, visitors can send
+### you up to one thousand emails. Set your email here in hugo.toml, then from the updated site, send yourself an email
+### to test and activate formspree: you'll receive a formspree email with a confirmation link.
+
 [params.contact]
 enable = true
 map = true
@@ -282,7 +294,7 @@ enable = true
 
 copyright = 'Copyright © 2024 Berasco GmbH'
 links = [
-#["icon-twitter", "#twitter"],
+["icon-twitter", "#twitter"],
 ["icon-facebook", "https://www.facebook.com/pages/BERASCO-GmbH/1929054204080780"],
-#["icon-youtube", "#youtube"]
+["icon-youtube", "#youtube"]
 ]

@@ -1,5 +1,5 @@
-# berasco.github.io
-static weblog www.berasco.de
+# vblx.github.io
+static landingpage example for www.berasco.de
 
 ### dev corner ###
 This info is *not* needed unless you want to do everything again from
