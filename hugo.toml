@@ -4,7 +4,7 @@ baseurl = "https://vblx.github.io/"
 title = "Berasco GmbH"
 languageCode = "de-DE"
 theme = "hugo-elate-theme"
-favicon = "images/favicon.ico"
+favicon = "favicon.ico"
 
 [params]
 
